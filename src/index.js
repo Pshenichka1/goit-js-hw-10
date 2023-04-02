@@ -48,7 +48,8 @@ function makeListCountry(country) {
 };
 
 function makeCardCountry(country) {
-    // clearAll();
+    clearAll();
+    const nameCountry = country[0];
     const cardCountry = `
     <div class card_country>
         <img class="flags_item" src="${nameCountry.flags.svg}" alt="" width = "40" height = "30">
