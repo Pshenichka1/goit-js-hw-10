@@ -54,9 +54,9 @@ function makeCardCountry(country) {
     <div class card_country>
         <img class="flags_item" src="${nameCountry.flags.svg}" alt="" width = "40" height = "30">
         <h2 class = "country_card_name">${nameCountry.name.official}</h2>
-        <p class= "field_card_country>Capital: ${nameCountry.capital}</p>
-        <p class= "field_card_country>Population: ${nameCountry.population}</p>
-        <p class= "field_card_country>Languages: ${Object.values(nameCountry.languages).join(',')}</p>
+        <p class= "field_card_country">Capital: ${nameCountry.capital}</p>
+        <p class= "field_card_country">Population: ${nameCountry.population}</p>
+        <p class= "field_card_country">Languages: ${Object.values(nameCountry.languages).join(',')}</p>
     </div>`
     countryInfo.innerHTML = cardCountry
 }
